@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Codeforces Editorial Blocker",
+    "version": "1.0",
+    "description": "Disables access to the Codeforces editorial section when enabled.",
+    "permissions": ["storage"],
+    "host_permissions": ["https://codeforces.com/*"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://codeforces.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
