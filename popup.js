@@ -17,7 +17,28 @@ document.addEventListener("DOMContentLoaded", function () {
         "Progress is impossible without change.",
         "Discipline is choosing between what you want now and what you want most.",
         "Don't count the days, make the days count.",
-        "The secret of getting ahead is getting started."
+        "The secret of getting ahead is getting started.",
+        "Believe you can and you're halfway there.",
+        "Difficult roads often lead to beautiful destinations.",
+        "Don’t watch the clock; do what it does—keep going.",
+        "Failure is not the opposite of success; it’s part of success.",
+        "Success usually comes to those who are too busy to be looking for it.",
+        "Great things never come from comfort zones.",
+        "It always seems impossible until it’s done.",
+        "If opportunity doesn’t knock, build a door.",
+        "Your limitation—it’s only your imagination.",
+        "Do what you can, with what you have, where you are.",
+        "You only fail when you stop trying.",
+        "Act as if what you do makes a difference—it does.",
+        "Push yourself, because no one else is going to do it for you.",
+        "Every champion was once a contender that refused to give up.",
+        "Doubt kills more dreams than failure ever will.",
+        "Stay hungry, stay foolish.",
+        "Small steps in the right direction can turn out to be the biggest step of your life.",
+        "The harder you work for something, the greater you’ll feel when you achieve it.",
+        "Be stronger than your excuses.",
+        "Success doesn’t come from what you do occasionally, it comes from what you do consistently."
+
     ];
 
     function getRandomQuote() {
