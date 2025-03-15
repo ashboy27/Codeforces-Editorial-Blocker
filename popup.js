@@ -106,16 +106,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function startPenaltyTimer(callback) {
         penaltyActive = true;
-        let waitTime =  10; 
+        let waitTime =  2*60; 
         toggleButton.disabled = true;
-        confirmationMessage.innerText = `You must wait 5 minutes before disabling. Time left: ${formatTime(waitTime)}`;
+        confirmationMessage.innerText = `You must wait 2 minutes before disabling.DONOT CLOSE THE EXTENSION. Time left: ${formatTime(waitTime)}`;
         confirmationBox.style.display = "block";
         yesButton.style.display = "none"; 
         noButton.style.display = "none"; 
 
         let interval = setInterval(() => {
             waitTime--;
-            confirmationMessage.innerText = `You must wait 5 minutes before disabling. Time left: ${formatTime(waitTime)}`;
+            confirmationMessage.innerText = `You must wait 2 minutes before disabling.DONOT CLOSE THE EXTENSION. Time left: ${formatTime(waitTime)}`;
 
             if (waitTime <= 0) {
                 clearInterval(interval);
